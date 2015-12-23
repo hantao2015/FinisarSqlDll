@@ -39,7 +39,8 @@ using System.Collections.Generic;
             // 首先排序.
             dataList.Sort();
 
-            decimal middleVal = 0;
+         Decimal middleVal = 0;
+      
 
             if (dataList.Count > 0)
             {
@@ -52,7 +53,7 @@ using System.Collections.Generic;
                     // 3个数字， 中位为第2个
                     // 5个数字， 中位为第3个
                     // 7个数字， 中位为第4个
-                    middleVal = dataList[dataList.Count / 2];
+                    middleVal =  dataList[dataList.Count / 2];
                 }
                 else
                 {
@@ -63,12 +64,12 @@ using System.Collections.Generic;
                     // 4个数字， 中位为 (第2个 + 第3个) / 2
                     // 6个数字， 中位为 (第3个 + 第4个) / 2
                     // 8个数字， 中位为 (第4个 + 第5个) / 2
-                    middleVal =
+                    middleVal = 
                      (dataList[dataList.Count / 2 - 1]
                      + dataList[dataList.Count / 2]) / 2;
                 }
             }
-
+        
             return new SqlDecimal(middleVal);
         }
 
