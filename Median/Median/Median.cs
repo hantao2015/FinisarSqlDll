@@ -12,7 +12,7 @@ using System.Collections.Generic;
   IsInvariantToNulls = true,        // 指示聚合是否与空值无关。
   IsInvariantToDuplicates = false,  // 指示聚合是否与重复值无关。
   IsInvariantToOrder = false,       // 指示聚合是否与顺序无关。
-  MaxByteSize = 8000)]
+  MaxByteSize = -1)]
  
     public struct Median : Microsoft.SqlServer.Server.IBinarySerialize
     {

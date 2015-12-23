@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Median", "Median\Median.sqlproj", "{B59B331C-C8B5-48CA-999D-9098E920BC86}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Median25", "..\Median25\Median25\Median25.sqlproj", "{3310B470-1715-476C-8D0E-1D415B1BF570}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Median75", "..\Median75\Median75\Median75.sqlproj", "{6F9409C3-F14B-416C-87A1-EF547302FFF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,18 @@ Global
 		{B59B331C-C8B5-48CA-999D-9098E920BC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B59B331C-C8B5-48CA-999D-9098E920BC86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B59B331C-C8B5-48CA-999D-9098E920BC86}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3310B470-1715-476C-8D0E-1D415B1BF570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3310B470-1715-476C-8D0E-1D415B1BF570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3310B470-1715-476C-8D0E-1D415B1BF570}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3310B470-1715-476C-8D0E-1D415B1BF570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3310B470-1715-476C-8D0E-1D415B1BF570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3310B470-1715-476C-8D0E-1D415B1BF570}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6F9409C3-F14B-416C-87A1-EF547302FFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9409C3-F14B-416C-87A1-EF547302FFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9409C3-F14B-416C-87A1-EF547302FFF0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F9409C3-F14B-416C-87A1-EF547302FFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9409C3-F14B-416C-87A1-EF547302FFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9409C3-F14B-416C-87A1-EF547302FFF0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
