@@ -20,6 +20,7 @@ using System.Collections.Generic;
         {
             // 初始化.
             dataList = new List<Decimal>();
+
         }
 
         public void Accumulate(SqlDecimal Value)
